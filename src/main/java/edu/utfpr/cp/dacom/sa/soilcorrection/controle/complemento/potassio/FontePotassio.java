@@ -1,7 +1,10 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection.controle;
+package edu.utfpr.cp.dacom.sa.soilcorrection.controle.complemento;
 
 import java.util.Set;
 
+import edu.utfpr.cp.dacom.sa.soilcorrection.controle.nucleo.IFonteNutriente;
+import edu.utfpr.cp.dacom.sa.soilcorrection.controle.nucleo.NomeNutrienteAdicional;
+import edu.utfpr.cp.dacom.sa.soilcorrection.controle.nucleo.NutrienteAdicional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

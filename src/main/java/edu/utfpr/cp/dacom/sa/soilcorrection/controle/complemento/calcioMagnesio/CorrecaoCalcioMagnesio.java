@@ -1,6 +1,8 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection.controle;
+package edu.utfpr.cp.dacom.sa.soilcorrection.controle.complemento;
 
-public class CorrecaoCalcioMagnesio 
+import edu.utfpr.cp.dacom.sa.soilcorrection.controle.nucleo.ICorrecaoNutriente;
+
+public class CorrecaoCalcioMagnesio
         implements ICorrecaoNutriente<FonteCalcioMagnesio> {
 
     public double calculaQuantidadeAplicar(

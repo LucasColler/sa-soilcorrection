@@ -1,4 +1,4 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection.controle;
+package edu.utfpr.cp.dacom.sa.soilcorrection.controle.nucleo;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
