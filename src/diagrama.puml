@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package modelo {
+}
+package visualizacao {
+}
+package controle {
+    package complemento{
+        package calcioMagnesio{
+            class CorrecaoCalcioMagnesio
+            enum FonteCalcioMagnesio
+        }
+        package fosforo{
+            class CorrecaoFosforo
+            enum FonteFosforo
+        }
+        package potassio{
+            class CorrecaoPotassio
+            enum FontePotassio
+        }
+    }
+    package nucleo{
+        package conversao{
+            interface Conversao
+            class ConverteCMolcDm3EmMgDm3
+            class ConverteKgHaEmK2O
+            class ConverteKgHaEmP2O5
+            class ConverteMgDm3EmKgHa
+        }
+        package correcao {
+            class EquilibrioCorrecaoCTC
+            interface ICorrecaoNutriente
+            interface ICorrecaoNutrienteQuantidadeAplicar
+        }
+        package nutriente {
+            interface IFonteNutriente
+            enum NomeNutrienteAdicional
+            class NutrienteAdicional
+            class NutrientesCTC
+
+        }
+        package solo {
+            enum TexturaSolo
+        }
+    }
+}
+@enduml
